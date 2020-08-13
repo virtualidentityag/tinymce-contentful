@@ -97,6 +97,7 @@ window.contentfulExtension.init(function(api) {
   // var tinymceUrl = "https://" + sub + ".tinymce.com/" + channel + "/tinymce.min.js?apiKey=" + apiKey;
   var tinymceUrl = "https://frontend.live/tinymce-contentful/master/src/tinymce.js";
   
+  
   debugger;
   loadScript(tinymceUrl, function() {
     tinymceForContentful(api);
