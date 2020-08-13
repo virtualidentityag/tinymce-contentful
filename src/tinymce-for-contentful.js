@@ -1,4 +1,5 @@
 window.contentfulExtension.init(function(api) {
+  debugger;
   function tinymceForContentful(api) {
     function tweak(param) {
       var t = param.trim();
@@ -15,6 +16,8 @@ window.contentfulExtension.init(function(api) {
     var tb = tweak(api.parameters.instance.toolbar);
     var mb = tweak(api.parameters.instance.menubar);  
 
+    debugger;
+
     api.window.startAutoResizer();
 
     tinymce.init({
@@ -28,6 +31,8 @@ window.contentfulExtension.init(function(api) {
       resize: false,
       image_caption: true,
       init_instance_callback : function(editor) {
+
+        debugger;
         var listening = true;
 
         function getEditorContent() {
@@ -56,6 +61,7 @@ window.contentfulExtension.init(function(api) {
         });
 
         function onEditorChange() {
+          debugger;
           var editorContent = getEditorContent();
           var apiContent = getApiContent();
 
@@ -78,6 +84,7 @@ window.contentfulExtension.init(function(api) {
   }
 
   function loadScript(src, onload) {
+    debugger;
     var script = document.createElement('script');
     script.setAttribute('src', src);
     script.onload = onload;
@@ -88,9 +95,9 @@ window.contentfulExtension.init(function(api) {
   var apiKey = api.parameters.installation.apiKey;
   var channel = api.parameters.installation.channel;
   // var tinymceUrl = "https://" + sub + ".tinymce.com/" + channel + "/tinymce.min.js?apiKey=" + apiKey;
-  var tinymceUrl = "https://frontend.live/tinymce-contentful/master/src/tinymce.min.js";
+  var tinymceUrl = "https://frontend.live/tinymce-contentful/master/src/tinymce.js";
   
-
+  debugger;
   loadScript(tinymceUrl, function() {
     tinymceForContentful(api);
   });
