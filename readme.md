@@ -1,3 +1,10 @@
+# VI Changes
+
+If you want to enable / disable plugins, it has to be done inside contentful.
+
+BE CAREFUL WHEN CHANGING THIS REPOSITORY, IF AFFECTS ROCHE CAREERS SITE IMMEDIATLY.
+
+
 # TinyMCE for Contentful
 
 This repository contains the integration of the TinyMCE rich text editor into the 

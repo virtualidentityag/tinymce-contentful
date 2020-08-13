@@ -85,10 +85,6 @@ window.contentfulExtension.init(function(api) {
     document.body.appendChild(script);
   }
 
-  var sub = location.host == "contentful.staging.tiny.cloud" ? "cloud-staging" : "cloud";
-  var apiKey = api.parameters.installation.apiKey;
-  var channel = api.parameters.installation.channel;
-  // var tinymceUrl = "https://" + sub + ".tinymce.com/" + channel + "/tinymce.min.js?apiKey=" + apiKey;
   var tinymceUrl = "https://frontend.live/tinymce-contentful/master/src/tinymce.js";
 
   loadScript(tinymceUrl, function() {
