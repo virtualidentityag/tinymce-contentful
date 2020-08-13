@@ -17,9 +17,9 @@ jobs:
               with:
                   node-version: 10
 
-            - name: Move files around
+            - name: Copy files to dist folder
               shell: bash
-              id: extract_branch_name
+              id: copy_files_dist
               run: mkdir dist; cp -r src dist; cp extension.json dist; cp readme.md dist;
 
             - name: Extract branch name
