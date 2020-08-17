@@ -4,6 +4,9 @@ If you want to enable / disable plugins, it has to be done inside contentful.
 
 BE CAREFUL WHEN CHANGING THIS REPOSITORY, IF AFFECTS ROCHE CAREERS SITE IMMEDIATLY.
 
+Also, if you need to re-add the extension, you need to make this REPO public, re-add in contenful backoffice
+and make it private again.
+
 
 # TinyMCE for Contentful
 
