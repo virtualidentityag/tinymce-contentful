@@ -85,7 +85,7 @@ window.contentfulExtension.init(function(api) {
     document.body.appendChild(script);
   }
 
-  var tinymceUrl = "https://frontend.live/tinymce-contentful/master/src/tinymce.js";
+  var tinymceUrl = "https://frontend.live/tinymce-contentful/configuration/src/tinymce.js";
 
   loadScript(tinymceUrl, function() {
     tinymceForContentful(api);

@@ -1,7 +1,7 @@
 {
   "id": "TinyMCE (v2)",
   "name": "TinyMCE (v2)",
-  "src": "https://frontend.live/tinymce-contentful/master/src/",
+  "src": "https://frontend.live/tinymce-contentful/configuration/src/index.html",
   "fieldTypes": ["Text"],
   "parameters": {
     "installation": [
