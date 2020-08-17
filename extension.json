@@ -1,6 +1,6 @@
 {
-  "id": "TinyMCE (v2)",
-  "name": "TinyMCE (v2)",
+  "id": "TinyMCE (v2.1)",
+  "name": "TinyMCE (v2.1)",
   "src": "https://frontend.live/tinymce-contentful/configuration/src/index.html",
   "fieldTypes": ["Text"],
   "parameters": {
@@ -10,7 +10,7 @@
           "name": "Plugins",
           "type": "Symbol",
           "default": "autoresize textpattern lists advlist media image",
-          "required": true,
+          "required": false,
           "description": "Space separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins."
       },
       {
