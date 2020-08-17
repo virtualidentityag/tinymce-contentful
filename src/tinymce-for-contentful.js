@@ -11,9 +11,9 @@ window.contentfulExtension.init(function(api) {
       }
     }
 
-    var p = tweak(api.parameters.instance.plugins);
-    var tb = tweak(api.parameters.instance.toolbar);
-    var mb = tweak(api.parameters.instance.menubar);  
+    var p = tweak(api.parameters.installation.plugins);
+    var tb = tweak(api.parameters.installation.toolbar);
+    var mb = tweak(api.parameters.installation.menubar);  
 
     api.window.startAutoResizer();
 
